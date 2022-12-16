@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacion FastApi</title>
+    <link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet">
+    <script src="{{url_for('static', path='/js/scripts.js')}}"></script>
+</head>
+<body>
+    <form class="form">
+        <h2 class="form__title">Registro</h2>
+
+        <div class="form__container">
+            <div class="form_-group">
+                <input type="text"  id="name" class="form__input" placeholder=" ">
+                <label for="name" class="form__label">Nombre</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form_-group">
+                <input type="text"  id="numero" class="form__input" placeholder=" ">
+                <label for="numero" class="form__label">Numero</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form_-group">
+                <input type="text"  id="ciudad" class="form__input" placeholder=" ">
+                <label for="ciudad" class="form__label">Ciudad</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form_-group">
+                <input type="text"  id="estado" class="form__input" placeholder=" ">
+                <label for="estado" class="form__label">Estado</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form_-group">
+                <input type="text"  id="t_tarjeta" class="form__input" placeholder=" ">
+                <label for="t_tarjeta" class="form__label">Tipo de tarjeta</label>
+                <span class="form__line"></span>
+            </div>
+            <div class="form_-group">
+                <input type="text"  id="no_tarjeta" class="form__input" placeholder=" ">
+                <label for="no_tarjeta" class="form__label">Codigo de tarjeta</label>
+                <span class="form__line"></span>
+            </div>
+            <input type="submit" class="form__submit" value="Registrar">
+        </div>
+    </form>
+    
+</body>
+</html>
